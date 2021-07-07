@@ -18,7 +18,10 @@ public class Runner {
 		
 	}
 	public static void findPercentage() {
-		System.out.println("Your Total Score as a percentage is " + Percentage + "%");
+		System.out.print("Your Total Score as a percentage is " + Percentage + "%");
+		if(Percentage < 60) {
+			System.out.print(" you have failed your exams and are a terrible human being.");
+		}
 	
 	}
 }
