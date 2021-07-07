@@ -19,6 +19,6 @@ public class Runner {
 	}
 
 	public static int rollDTwenty() {
-		return new Random().nextInt(210);
+		return new Random().nextInt(20);
 	}
 }
