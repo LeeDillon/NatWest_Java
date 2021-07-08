@@ -1,6 +1,7 @@
 package com.qa.classmembers;
 
 public class Runner {
+
 	static double Physics = 100;
 	static double Chemistry = 120;
 	static double Biology = 85;
@@ -25,4 +26,3 @@ public class Runner {
 	
 	}
 }
-
